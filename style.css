@@ -76,7 +76,6 @@ header {
 .new-todo form button:hover {
     text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.8);
 }
-
 #todos-list {
     height: calc(var(--container-height) - var(--header-height));
     background-color: #fff;
@@ -85,7 +84,6 @@ header {
     overflow: scroll;
     border-radius: 0 0 5px 5px;
 }
-
 #todos-list .todo {
     display: flex;
     align-items: center;
@@ -117,29 +115,21 @@ header {
     color: rgb(236, 82, 82);
     margin: 0;
 }
-
 .notification {
     position: absolute;
-
     width: calc(3 * var(--contaier-width) / 4);
     height: 60px;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     opacity: 0.9;
-
     border-radius: 8px;
     background-color: rgb(233, 81, 81);
     top: 10px;
     right: calc(-3 * var(--contaier-width) / 4);
-
     color: #fff;
-
     transition: 300ms right ease-in-out;
 }
-
 .notif-enter {
     right: 10px;
 }
